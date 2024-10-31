@@ -1,0 +1,378 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="kinomaui.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            
+            >
+    
+            <HorizontalStackLayout
+                VerticalOptions="Start"
+                >
+                <Border
+                    Stroke="Black"
+                    StrokeThickness="4"
+                 
+                    
+                    HorizontalOptions="Center"
+                    Padding="10,8">
+
+                
+
+                    <Image
+                    Source="pentagram1.png"
+                     WidthRequest="300"
+                     VerticalOptions="Start"
+                        />
+
+                </Border>
+                <VerticalStackLayout>
+                    <Label
+                        Background="Gray"
+                        Text="Pentagram"
+                        FontSize="30"
+                        TextColor="White"
+                        HorizontalTextAlignment="Center"
+                        />
+
+                    <Label
+                BackgroundColor="LightGray"
+                WidthRequest="300"
+                HeightRequest="300"
+                        Text="lorem ipsum etni vanitas abudami aha lorem ipsum etni vanitas abudami aha lorem ipsum etni vanitas abudami aha"
+                        />
+                    
+                    <Label 
+                            HeightRequest="27"
+                            WidthRequest="300"
+                            Background="Gray"
+                        FontSize="21"
+                        Text="Godzina grania: 10.45"
+                            />
+                    <Label 
+                           HeightRequest="27"
+                           WidthRequest="300"
+                           Background="Gray"
+                       FontSize="21"
+                       Text="Godzina grania: 14.45"
+                           />
+                    <HorizontalStackLayout>
+
+
+                        <Button
+                        CornerRadius="0"
+                        WidthRequest="150"
+                        HeightRequest="40"
+                        Background="black"
+                            Text="Cena: 10 zł"
+                        />
+
+
+                        <Button
+                        CornerRadius="0"
+                        WidthRequest="75"
+                        HeightRequest="40"
+                        Background="black"
+                            Text="dodaj"
+                            Clicked="Kup"
+                            
+                        />
+                        <Button
+                        CornerRadius="0"
+                        WidthRequest="75"
+                        HeightRequest="40"
+                        Background="black"
+                            Text="usun"
+                            Clicked="Usun"
+                            
+                        />
+
+                    </HorizontalStackLayout>
+                </VerticalStackLayout>
+            
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout
+     VerticalOptions="Start"
+     >
+                <Border
+         Stroke="Black"
+         StrokeThickness="4"
+      
+         
+         HorizontalOptions="Center"
+         Padding="10,8">
+
+
+
+                    <Image
+         Source="pentagram2.png"
+          WidthRequest="300"
+          VerticalOptions="Start"
+             />
+
+                </Border>
+                <VerticalStackLayout>
+                    <Label
+             Background="Gray"
+             Text="Pentagram 2"
+             FontSize="30"
+             TextColor="White"
+             HorizontalTextAlignment="Center"
+             />
+
+                    <Label
+     BackgroundColor="LightGray"
+     WidthRequest="300"
+     HeightRequest="300"
+             Text="lorem ipsum etni vanitas abudami aha lorem ipsum etni vanitas abudami aha lorem ipsum etni vanitas abudami aha"
+             />
+
+                    <Label 
+                 HeightRequest="27"
+                 WidthRequest="300"
+                 Background="Gray"
+             FontSize="21"
+             Text="Godzina grania: 10.45"
+                 />
+                    <Label 
+                HeightRequest="27"
+                WidthRequest="300"
+                Background="Gray"
+            FontSize="21"
+            Text="Godzina grania: 14.45"
+                />
+                    <HorizontalStackLayout>
+
+
+                        <Button
+             CornerRadius="0"
+             WidthRequest="150"
+             HeightRequest="40"
+             Background="black"
+                 Text="Cena: 10 zł"
+             />
+
+
+                        <Button
+                        CornerRadius="0"
+                        WidthRequest="75"
+                        HeightRequest="40"
+                        Background="black"
+                            Text="dodaj"
+                            Clicked="Kup"
+                            
+                        />
+                        <Button
+                        CornerRadius="0"
+                        WidthRequest="75"
+                        HeightRequest="40"
+                        Background="black"
+                            Text="usun"
+                            Clicked="Usun"
+                            
+                        />
+
+                    </HorizontalStackLayout>
+                </VerticalStackLayout>
+
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout
+     VerticalOptions="Start"
+     >
+                <Border
+         Stroke="Black"
+         StrokeThickness="4"
+      
+         
+         HorizontalOptions="Center"
+         Padding="10,8">
+
+
+
+                    <Image
+         Source="pentagram3.png"
+          WidthRequest="300"
+          VerticalOptions="Start"
+             />
+
+                </Border>
+                <VerticalStackLayout>
+                    <Label
+             Background="Gray"
+             Text="Pentagram 3"
+             FontSize="30"
+             TextColor="White"
+             HorizontalTextAlignment="Center"
+             />
+
+                    <Label
+     BackgroundColor="LightGray"
+     WidthRequest="300"
+     HeightRequest="300"
+             Text="lorem ipsum etni vanitas abudami aha lorem ipsum etni vanitas abudami aha lorem ipsum etni vanitas abudami aha"
+             />
+
+                    <Label 
+                 HeightRequest="27"
+                 WidthRequest="300"
+                 Background="Gray"
+             FontSize="21"
+             Text="Godzina grania: 10.45"
+                 />
+                    <Label 
+                HeightRequest="27"
+                WidthRequest="300"
+                Background="Gray"
+            FontSize="21"
+            Text="Godzina grania: 14.45"
+                />
+                    <HorizontalStackLayout>
+
+
+                        <Button
+             CornerRadius="0"
+             WidthRequest="150"
+             HeightRequest="40"
+             Background="black"
+                 Text="Cena: 10 zł"
+             />
+
+
+                        <Button
+                        CornerRadius="0"
+                        WidthRequest="75"
+                        HeightRequest="40"
+                        Background="black"
+                            Text="dodaj"
+                            Clicked="Kup"
+                            
+                        />
+                        <Button
+                        CornerRadius="0"
+                        WidthRequest="75"
+                        HeightRequest="40"
+                        Background="black"
+                            Text="usun"
+                            Clicked="Usun"
+                            
+                        />
+
+                    </HorizontalStackLayout>
+                </VerticalStackLayout>
+
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout
+     VerticalOptions="Start"
+     >
+                <Border
+         Stroke="Black"
+         StrokeThickness="4"
+      
+         
+         HorizontalOptions="Center"
+         Padding="10,8">
+
+
+
+                    <Image
+         Source="pentagram4.png"
+          WidthRequest="300"
+          VerticalOptions="Start"
+             />
+
+                </Border>
+                <VerticalStackLayout>
+                    <Label
+             Background="Gray"
+             Text="Pentagram 4"
+             FontSize="30"
+             TextColor="White"
+             HorizontalTextAlignment="Center"
+             />
+
+                    <Label
+     BackgroundColor="LightGray"
+     WidthRequest="300"
+     HeightRequest="300"
+             Text="lorem ipsum etni vanitas abudami aha lorem ipsum etni vanitas abudami aha lorem ipsum etni vanitas abudami aha"
+             />
+
+                    <Label 
+                 HeightRequest="27"
+                 WidthRequest="300"
+                 Background="Gray"
+             FontSize="21"
+             Text="Godzina grania: 10.45"
+                 />
+                    <Label 
+                HeightRequest="27"
+                WidthRequest="300"
+                Background="Gray"
+            FontSize="21"
+            Text="Godzina grania: 14.45"
+                />
+                    <HorizontalStackLayout>
+
+
+                        <Button
+             CornerRadius="0"
+             WidthRequest="150"
+             HeightRequest="40"
+             Background="black"
+                 Text="Cena: 10 zł"
+                        
+             />
+
+
+                        <Button
+                        CornerRadius="0"
+                        WidthRequest="75"
+                        HeightRequest="40"
+                        Background="black"
+                            Text="dodaj"
+                            Clicked="Kup"
+                            
+                        />
+                        <Button
+                        CornerRadius="0"
+                        WidthRequest="75"
+                        HeightRequest="40"
+                        Background="black"
+                            Text="usun"
+                            Clicked="Usun"
+                            
+                        />
+
+                    </HorizontalStackLayout>
+                </VerticalStackLayout>
+
+            </HorizontalStackLayout>
+
+
+            <Border
+                Stroke="Black"
+                StrokeThickness="4"
+                Margin="0,10,0,0"
+                >
+            <Label
+                
+                HorizontalOptions="Center"
+                x:Name="koszyk"
+                Text="Brak produktów"
+                
+                WidthRequest="1800"
+                HeightRequest="100"
+                Background="MintCream"
+                />
+            </Border>
+        </VerticalStackLayout>
+        
+        
+    </ScrollView>
+
+</ContentPage>
